@@ -1,0 +1,287 @@
+					
+
+body {
+	background:#e6e6e6;
+	margin:0;
+	min-width:830px;
+}		
+
+
+.main {
+	background:fff;
+	width: 95%;
+	min-width:1025px;
+	margin:20px;
+
+	
+}
+header {
+	width:100%;
+	background:#252932;
+	position:sticky;
+	top:0px;
+	min-width:1050px;
+	z-index: 1001;
+	
+}
+hr{
+	background:#000;
+
+}
+@media screen and (max-width: 950px){
+	header .logo,
+	header nav {
+		width:100%;
+		text-align:center;
+		line-height:100%;
+	
+ }
+	header {
+		height:auto;
+ }
+	header .logo,
+	header nav {
+		line-height:50px;
+ }
+}
+.main .articles{
+	width: 68%;
+	float:left;
+	margin:5px;
+	
+		
+}
+
+.main .articles article {
+	background: #ffffff;
+	margin-bottom: 20px;
+	padding:10px;
+	background:#fff;
+	border-radius:5px;
+}
+
+.main aside{
+	height:auto;
+	width: 28%;
+	background: #f56f3a;
+	float:left;
+	padding:10px;
+	border-radius:5px;
+	margin:5px;
+	
+}
+
+img {
+	border-radius:5px;
+}
+
+ footer { 
+	padding-bottom:5px;
+	margin:10px;
+	width:98%;
+	float:left;
+	background: #252932;
+	color:#fff;
+   	text-align: center;
+	height:35px;
+	border-radius:2px;
+	
+}
+
+
+.wrapper {
+	width:99%;
+	padding-bottom:5px;
+	margin:auto;
+	overflow:hidden;
+	padding-top:5px;
+	
+}
+
+header .logo {
+	color:#f2f2f2;
+	font-size:30px;
+	float:left;
+}
+
+header nav {
+	float:  right;
+
+}
+
+	
+
+
+
+header nav a{
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding: 10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	
+	
+}
+
+header nav a:hover {
+	background:#f56f3a;
+	border-radius:50px;
+	transition:all 1000ms ease;
+}
+
+			/*Zona De Clientes*/
+/*Caja Puntos*/
+
+.puntos{
+	width: 300px;
+	height: 300px;
+	background: #e6e6e6;
+	color: #000;
+	border-style:solid;
+	display: inline-block;
+	margin:5px;
+	
+	}
+
+	
+.texp {
+	width:auto;
+	margin:4px;
+	display: inline-flex;
+    	position: absolute;
+	text-align : justify;
+    	min-width: 450px;
+	max-width: 1000px;
+}
+	
+.1 {
+	width:auto;
+	display:inline-block;
+	background:#ffffff;	
+}
+
+.contenedor {
+
+	background:#fff;
+	margin:10px;
+	display: inline-block;
+	height: 1300px;
+	width: 95%;
+	padding:10px;
+	boder-radius:30px;
+}
+	
+
+
+.2 {
+
+	width:98%;
+	display:inline-block;
+	background:#ffffff;
+	height: 295px;
+	margin-top:5px;
+}
+
+
+.historial{
+
+	margin:5px;
+	width: 300px;
+	height: 300px;
+	background: #e6e6e6;
+	color: #000;
+	border-style:solid;
+	display: inline-block;
+	
+	}
+
+	
+.texp1 {
+	width:auto;
+	margin:4px;
+	display: inline-flex;
+    	position: absolute;
+	text-align : justify;
+    	min-width: 450px;
+	max-width: 1000px;
+}
+	
+.servicios {
+	background:#fff;
+	display: inline-block;
+	width:90%;
+	margin:0 auto;
+	margin-left:30px;
+	border-radius:5px;
+
+}
+.servicios li {
+	display: inline-block;
+	list-style:none;
+	
+}
+
+.servicios li img {
+	background-size: cover;
+	border-radius: 6%;
+	width:250px;
+	height:250px;
+	transition:all .6s ease;
+	opacity: .80;
+
+}
+	
+.servicios li img:hover {
+
+	opacity: 1;
+	border-radius: 30%
+	bax-shadow:0px 0px 20px #ddd;
+	transform:scale(1.2) rotate(360deg);
+}
+
+
+.botones{
+	margin-top:80px;
+	display: inline-block;
+   	border: none;
+ 	background: #252932;
+ 	color: #f2f2f2;
+ 	padding: 10px;
+ 	font-size: 18px;
+ 	border-radius: 5px;
+	position: relative;
+ 	box-sizing: border-box;
+	transition: all 500ms ease;
+	text-decoration:none;
+	margin-left:100px;
+	
+}	
+.botones:hover {
+	background: rgba(0,0,0,0);
+	color: #252932;
+	box-shadow: inset 0 0 0 3px #252932;
+}
+
+
+
+
+.p1{
+	margin-left:5px;
+	margin-top:50px;
+
+}	
+
+.puntos h3{
+	margin-left:70px;
+}				
+
+
+						
+						
+						
+						
+						
+						
+						
